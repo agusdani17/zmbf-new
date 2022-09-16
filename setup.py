@@ -15,4 +15,4 @@ def install(main_file):
 	else:
 		print('Please install from full source')
 
-install()
+install(main_file)
