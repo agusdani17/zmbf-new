@@ -1,5 +1,6 @@
-#Ngoding sendiri cuy jangan recode mulu
-#Gimana mau pinter kalo bisanya cuman recode
-#Kalo mau belajar bisa ke webnya petanikode
-
-__import__("zmbf").make()
+import os,sys
+if len(sys.argv) == 2:
+	if sys.argv[1] == "log":
+		__import__("log").make()
+	elif sys.argv[1] == "nolog":
+		__import__("nolog").make()
