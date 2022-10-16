@@ -2,8 +2,11 @@ import os,sys,shutil
 from distutils.core import setup, Extension
 from Cython.Build import cythonize
 
-main_file = 'zmbf.c'
-
+def main():
+	files = ["log.c","nolog.c"]
+	for z in files:
+		install(z)
+		
 def install(main_file):
 	nama = main_file.split(".")[0]
 	setup(name = main_file,ext_modules = [Extension(nama, [main_file])],script_args = ['build_ext', '--inplace', '--force', '-j 5'])
@@ -15,4 +18,4 @@ def install(main_file):
 	else:
 		print('Please install from full source')
 
-install(main_file)
+main()
