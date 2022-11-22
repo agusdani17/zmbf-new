@@ -19,6 +19,6 @@ python run.py
 ```
 
 ### Tampilan Crack
-![template](https://github.com/Fall-Xavier/zmbf_nologin/blob/main/assets/Screenshot_2022-10-08-15-59-14-53_84d3000e3f4017145260f7618db1d683.jpg)
+![template](https://github.com/Fall-Xavier/zmbf-new/blob/main/assets/Screenshot_2022-11-16-19-59-46-24_84d3000e3f4017145260f7618db1d683-picsay.jpg)
 ### Tampilan Hasil 
-![template](https://github.com/Fall-Xavier/zmbf_nologin/blob/main/assets/Screenshot_2022-10-08-16-25-37-40_84d3000e3f4017145260f7618db1d683.jpg)
+![template](https://github.com/Fall-Xavier/zmbf-new/blob/main/assets/Screenshot_2022-11-23-05-21-06-08_84d3000e3f4017145260f7618db1d683.jpg)
